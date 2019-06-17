@@ -8,15 +8,18 @@ _**IMPORTANT:** If you have FRAMEPRO_ENABLED turned on, you will exclude all ext
 
 To make have better stat scoping to prevent "Frame N" events, etc, do one of either:
 
-1. Game.Target.cs:
+1. YourGame.Target.cs:
 
     ```csharp
     BuildEnvironment = TargetBuildEnvironment.Unique;
     GlobalDefinitions.Add("PLATFORM_LIMIT_PROFILER_UNIQUE_NAMED_EVENTS=1");
+	GlobalDefinitions.Add("SLATE_VERBOSE_NAMED_EVENTS=0");
+	
     ```
 
 1. Core.Build.cs:
 
     ```csharp
     PublicDefinitions.Add("PLATFORM_LIMIT_PROFILER_UNIQUE_NAMED_EVENTS=1");
+	PublicDefinitions.Add("SLATE_VERBOSE_NAMED_EVENTS=0");
     ```

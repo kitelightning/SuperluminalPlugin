@@ -1,7 +1,3 @@
-# Ignore Superluminal API folder
-Source/ThirdParty/SuperluminalExternalLib/API/*
-
-
 # Visual Studio 2015 user specific files
 .vs/
 
