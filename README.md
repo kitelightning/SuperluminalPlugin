@@ -1,23 +1,22 @@
-![](Resources/Icon128.png)
-
-# Superluminal Integration
+# ![](Resources/Icon128.png) [Superluminal UE4 Integration](https://www.superluminal.eu/)
 
 ## Instructions
-Enable the plugin and pass this flag
 
--Superluminal
+Enable the plugin and pass this flag: `-Superluminal`
 
-NOTE: If you have FRAMEPRO_ENABLED turned on, you will exclude all external profilers
-NOTE: To make have better stat scoping to prevent "Frame N" events, etc, do one of either:
+_**IMPORTANT:** If you have FRAMEPRO_ENABLED turned on, you will exclude all external profilers_
+
+To make have better stat scoping to prevent "Frame N" events, etc, do one of either:
 
 1. Game.Target.cs:
 
-```csharp
-GlobalDefinitions.Add("PLATFORM_LIMIT_PROFILER_UNIQUE_NAMED_EVENTS=1");
-```
+    ```csharp
+    BuildEnvironment = TargetBuildEnvironment.Unique;
+    GlobalDefinitions.Add("PLATFORM_LIMIT_PROFILER_UNIQUE_NAMED_EVENTS=1");
+    ```
 
-2. Core.Build.cs:
+1. Core.Build.cs:
 
-```csharp
-PublicDefinitions.Add("PLATFORM_LIMIT_PROFILER_UNIQUE_NAMED_EVENTS=1");
-```
+    ```csharp
+    PublicDefinitions.Add("PLATFORM_LIMIT_PROFILER_UNIQUE_NAMED_EVENTS=1");
+    ```
