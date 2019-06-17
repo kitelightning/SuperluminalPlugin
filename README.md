@@ -1,5 +1,7 @@
 # ![](Resources/Icon128.png) [Superluminal UE4 Integration](https://www.superluminal.eu/)
 
+This is a 4.27 fork of KiteLighting's Superluminal plugin.
+
 ## Instructions
 
 Enable the plugin and pass this flag: `-Superluminal`
