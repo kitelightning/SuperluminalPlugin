@@ -41,7 +41,6 @@ public class Superluminal : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[] {
                 "Engine",
-                "Core",
                 "SuperluminalExternalLib"
 				// ... add private dependencies that you statically link with here ...	
 			}

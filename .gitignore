@@ -1,7 +1,3 @@
-# Ignore LivePP SDK folder
-Source/ThirdParty/LPPExternalLib/LivePP/*
-
-
 # Visual Studio 2015 user specific files
 .vs/
 
