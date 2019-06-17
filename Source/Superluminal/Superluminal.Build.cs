@@ -9,7 +9,7 @@ public class Superluminal : ModuleRules
     public Superluminal(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-        //bTreatAsEngineModule = true;
+        bTreatAsEngineModule = true;
         // PublicDefinitions.Add("PLATFORM_LIMIT_PROFILER_UNIQUE_NAMED_EVENTS=1");
 		
 		PublicIncludePaths.AddRange(
