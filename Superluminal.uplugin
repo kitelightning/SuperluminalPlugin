@@ -1,0 +1,41 @@
+{
+  "FileVersion": 3,
+  "Version": 0,
+  "VersionName": "0.1.0+SL-1-0-2639",
+  "FriendlyName": "Superluminal",
+  "Description": "A Plugin wrapper for Superluminal Performance Profiler",
+  "Category": "Programming",
+  "CreatedBy": "Kite & Lightning",
+  "CreatedByURL": "https://bebylon.world/",
+  "DocsURL": "https://www.superluminal.eu/docs/documentation.html",
+  "MarketplaceURL": "",
+  "SupportURL": "https://www.superluminal.eu/",
+  "EngineVersion": "4.22.0",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "Superluminal",
+      "Type": "RuntimeNoCommandlet",
+      "LoadingPhase": "PostConfigInit",
+      "WhitelistPlatforms": [
+        "Win32",
+        "Win64"
+      ],
+      "WhitelistTargetConfigurations": [
+        "Debug",
+        "DebugGame",
+        "Development"
+      ],
+      "WhitelistTargets": [
+        "Game",
+        "Editor",
+        "Client",
+        "Server",
+        "Program"
+      ]
+    }
+  ]
+}
