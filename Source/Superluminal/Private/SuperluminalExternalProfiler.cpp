@@ -18,7 +18,7 @@ public:
 #include "CoreTypes.h"
 #include "HAL/PlatformProcess.h"
 #include "Misc/AssertionMacros.h"
-#include "Templates/ScopedPointer.h"
+#include "Templates/SharedPointer.h"
 #include "Features/IModularFeatures.h"
 #include "Templates/UniquePtr.h"
 #include "Containers/Map.h"
