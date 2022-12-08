@@ -10,8 +10,6 @@ _**IMPORTANT:** If you have FRAMEPRO_ENABLED turned on, you will exclude all ext
 
 UE4 creates several unique names for a bunch of stat named events (e.g. Slate widgets, "Frame N", etc).  To minimize the impact this has on the profiler (imho, the unique names are overkill), do one of either:
 
-UE4 creates several unique names for a bunch of stat named events (e.g. Slate widgets, "Frame N", etc).  To minimize the impact this has on the profiler (imho, the unique names are overkill), do one of either:
-
 1. YourGame.Target.cs:
 
     ```csharp
